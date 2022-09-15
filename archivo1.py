@@ -5,6 +5,6 @@ for i in palabra:
     if i in vocales:
         print(i, 'es una vocal')
     elif i in espacio:
-        print('es un espacio')
+        print(i, 'es un espacio')
     else:
         print(i, 'es una consonante')

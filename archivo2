@@ -1,0 +1,5 @@
+lista=[]
+while len(lista)<5:
+    numero=int(input("Introduce un número\n"))
+    lista.append(numero)
+print(sorted(lista))
